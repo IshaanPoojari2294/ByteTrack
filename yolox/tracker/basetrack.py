@@ -1,6 +1,9 @@
 import numpy as np
 from collections import OrderedDict
 
+np.float = float
+np.int = int
+
 
 class TrackState(object):
     New = 0
